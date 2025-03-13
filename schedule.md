@@ -6,7 +6,7 @@
 |-----------------------|-------------|-----------------------------------|----------------------------------------|
 | **Lê Khánh Hoàng**    | 3122410125  | lekhanhhoang139@gmail.com         | [Xem thêm](https://uncletientrung.github.io/) |
 | **Nguyễn Tiến Trung** | 3123410396  | thihachcf@gmail.com               | [Xem thêm](https://uncletientrunggithub.io) |
-| **Nguyễn Minh Thuận** | 3123410365  | nguyenminhthuan2005a@gmail.com    | [Xem thêm](https://thuanstealer.github.io/thuanminh.github.io) |
+| **Nguyễn Minh Thuận** | 3123410365  | nguyenminhthuan2005a@gmail.com    | [Xem thêm](https://thuanstealer.github.io/thuanminh.github.io/) |
 | **Phan Hoàng Vũ**     | 3123410436  | phanvu260823@gmail.com            | [Xem thêm](https://uncletientrunggithub.io) |
 
 ---
