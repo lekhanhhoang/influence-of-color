@@ -33,6 +33,8 @@ Tuần 11 (14/4/2025-20/4/2025): Kiểm thử thuật toán
 
 Liên kết:
 
+https://docs.google.com/spreadsheets/d/1EJITajVmTpH3mzjAfpTmXv2GxT9eF3eGN6-MQDHOTWQ/edit?usp=sharing
+
 
 Tổ chức và phân công:
 
