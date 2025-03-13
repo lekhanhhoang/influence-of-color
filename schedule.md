@@ -22,6 +22,10 @@
 | **Tuần 9**  | 31/03 - 06/04   | Sửa đổi và hoàn thiện bài nghiên cứu                         |
 | **Tuần 10** | 07/04 - 13/04   | Lập trình thuật toán để tăng độ chính xác của bài nghiên cứu |
 | **Tuần 11** | 14/04 - 20/04   | Kiểm thử thuật toán                                          |
+| **Tuần 12** | 21/04 - 27/04   | Kiểm thử thuật toán                                          |
+| **Tuần 13** | 28/04 - 04/05   | Kiểm thử và bảo trì                                          |
+| **Tuần 13** | 05/05 - 11/05   | Hoàn thiện báo cáo                                           |
+
 
 ---
 
