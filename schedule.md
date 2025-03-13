@@ -24,7 +24,7 @@
 | **Tuần 11** | 14/04 - 20/04   | Kiểm thử thuật toán                                          |
 | **Tuần 12** | 21/04 - 27/04   | Kiểm thử thuật toán                                          |
 | **Tuần 13** | 28/04 - 04/05   | Kiểm thử và bảo trì                                          |
-| **Tuần 13** | 05/05 - 11/05   | Hoàn thiện báo cáo                                           |
+| **Tuần 14** | 05/05 - 11/05   | Hoàn thiện báo cáo                                           |
 
 
 ---
