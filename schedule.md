@@ -38,10 +38,10 @@ https://docs.google.com/spreadsheets/d/1EJITajVmTpH3mzjAfpTmXv2GxT9eF3eGN6-MQDHO
 
 Tổ chức và phân công:
 
-Lê Khánh Hoàng:
+Lê Khánh Hoàng: Lập trình thuật toán và tìm kiếm thông tin, dataset
 
-Nguyễn Lê Tiến Trung:
+Nguyễn Lê Tiến Trung: Lập trình thuật toán, dịch thuật và phân loại thông tin
 
-Phan Hoàng Vũ:
+Phan Hoàng Vũ: Lập trình thuật toán và điều chỉnh bố cục bài nghiên cứu
 
-Nguyễn Minh Thuận:
+Nguyễn Minh Thuận: Lập trình thuật toán và tìm kiếm bài mẫu
