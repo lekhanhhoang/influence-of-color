@@ -41,4 +41,3 @@
 ## **Liên kết**
 🔗 [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1EJITajVmTpH3mzjAfpTmXv2GxT9eF3eGN6-MQDHOTWQ/edit?usp=sharing)  
 
-[x] Color diagnosticity in object recognition - Published: August 1999 (James W. Tanaka & Lynn M. Presnell )
