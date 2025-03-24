@@ -5,3 +5,6 @@ Màu sắc đóng vai trò quan trọng trong nhiều lĩnh vực của đời s
 Dự án sẽ tổng hợp các nghiên cứu trước đây về mối liên hệ giữa màu sắc và tâm lý, đồng thời tiến hành khảo sát thực nghiệm để thu thập dữ liệu về phản ứng của con người đối với các gam màu khác nhau trong những bối cảnh cụ thể. Kết quả thu được có thể ứng dụng trong nhiều lĩnh vực như thiết kế giao diện người dùng (UI/UX), quảng cáo, giáo dục và chăm sóc sức khỏe.
 
 Mục tiêu của nghiên cứu là xác định những xu hướng chung về ảnh hưởng của màu sắc đến cảm xúc và hành vi, đồng thời đề xuất các ứng dụng thực tiễn nhằm tối ưu hóa trải nghiệm người dùng trong các lĩnh vực liên quan.
+
+# Tài liệu tham khảo nhóm đọc
+[x] Color diagnosticity in object recognition - Published: August 1999 (James W. Tanaka & Lynn M. Presnell )
