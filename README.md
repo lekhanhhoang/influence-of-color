@@ -10,3 +10,5 @@ Mục tiêu của nghiên cứu là xác định những xu hướng chung về 
 <input type="checkbox" checked disabled> Color diagnosticity in object recognition - Published: August 1999 (James W. Tanaka & Lynn M. Presnell )
 
 
+## Cách 1: Markdown
+- [x] Color diagnosticity (Tanaka & Prescott, 1999)
