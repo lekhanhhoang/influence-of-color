@@ -7,8 +7,5 @@ Dự án sẽ tổng hợp các nghiên cứu trước đây về mối liên h�
 Mục tiêu của nghiên cứu là xác định những xu hướng chung về ảnh hưởng của màu sắc đến cảm xúc và hành vi, đồng thời đề xuất các ứng dụng thực tiễn nhằm tối ưu hóa trải nghiệm người dùng trong các lĩnh vực liên quan.
 
 # Tài liệu tham khảo nhóm đọc
-<input type="checkbox" checked disabled> Color diagnosticity in object recognition - Published: August 1999 (James W. Tanaka & Lynn M. Presnell )
-
-
-## Cách 1: Markdown
-- [x] Color diagnosticity (Tanaka & Prescott, 1999)
+- [x] Color diagnosticity in object recognition - Published: August 1999 (James W. Tanaka & Lynn M. Presnell )
+- [x] Machine Learning Mastery With Python Understand Your Data Create Accurate Models and Work Projects End-to-End
