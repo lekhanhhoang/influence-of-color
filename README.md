@@ -9,3 +9,4 @@ Mục tiêu của nghiên cứu là xác định những xu hướng chung về 
 # Tài liệu tham khảo nhóm đọc
 - [x] Color diagnosticity in object recognition - Published: August 1999 (James W. Tanaka & Lynn M. Presnell )
 - [x] Machine Learning Mastery With Python Understand Your Data Create Accurate Models and Work Projects End-to-End
+- [x] https://github.com/jantic/DeOldify?tab=readme-ov-file#about-deoldify 

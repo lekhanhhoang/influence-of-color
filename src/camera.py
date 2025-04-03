@@ -45,10 +45,10 @@ def main():
         # ret: True/False tùy thuộc vào việc đọc khung hình có thành công không
         # frame: khung hình đọc được
         ret, frame = cap.read()
+    
         
         # Nếu không đọc được khung hình thì thoát vòng lặp
-        if not ret:
-            break
+        if not ret:            break
 
         # Lấy giá trị hiện tại từ các trackbar
         ilowH = cv2.getTrackbarPos("lowH", "Controls")  # Giá trị Hue nhỏ nhất
