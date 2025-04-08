@@ -1,4 +1,4 @@
-# influence-of-color
+# Colorful-Image-Colorization
 Giới thiệu tổng quan về dự án:
 Màu sắc đóng vai trò quan trọng trong nhiều lĩnh vực của đời sống, từ thiết kế, nghệ thuật đến tâm lý học và marketing. Nghiên cứu này nhằm phân tích ảnh hưởng của màu sắc đến tâm lý và hành vi con người, qua đó đánh giá mức độ tác động của từng gam màu lên nhận thức, cảm xúc và quyết định của cá nhân.
 
