@@ -11,3 +11,5 @@ Mục tiêu của nghiên cứu là xác định những xu hướng chung về 
 - [x] Machine Learning Mastery With Python Understand Your Data Create Accurate Models and Work Projects End-to-End
 - [x] https://github.com/jantic/DeOldify?tab=readme-ov-file#about-deoldify 
 - [x] Color Feature Based Dominant Color Extraction (YOUNGHA CHANG , (Member, IEEE), AND NOBUHIKO MUKAI)
+- [x] Colorful Image Colorization (Oct 2016, ECCV) (https://www.youtube.com/watch?v=4xoTD58Wt-0)
+- [x] https://github.com/richzhang/colorization
