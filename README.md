@@ -13,4 +13,4 @@ Mục tiêu của nghiên cứu là xác định những xu hướng chung về 
 - [x] Color Feature Based Dominant Color Extraction (YOUNGHA CHANG , (Member, IEEE), AND NOBUHIKO MUKAI)
 - [x] Colorful Image Colorization (Oct 2016, ECCV) (https://www.youtube.com/watch?v=4xoTD58Wt-0)
 - [x] https://github.com/richzhang/colorization
-- [0] Image Colorization Using the Global Scene-Context Style and Pixel-Wise Semantic Segmentation (Author: Tram-Tran Nguyen-Quynh, S.H. Kim, Nhu-Tai Do )
+- [ ] Image Colorization Using the Global Scene-Context Style and Pixel-Wise Semantic Segmentation (Author: Tram-Tran Nguyen-Quynh, S.H. Kim, Nhu-Tai Do )
