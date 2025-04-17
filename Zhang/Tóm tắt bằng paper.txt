@@ -1,0 +1,96 @@
+				Tô màu ảnh xám một cách sống động
+			Richard Zhang, Phillip Isola, Alexei A. Efros
+
+ABSTRACT
+- Với 1 bức ảnh trắng đen làm đầu vào, bài báo này sẽ giải quyết vấn đề tưởng tượng ra bản màu hợp lý của bức đó. Đây
+là 1 rõ ràng là thiếu thông tin, vì vậy các phương trước đây thường dựa vào các tương tác của người dùng hoặc cho ra
+các kết quả màu bị nhạt. Chúng tôi để xuất pp tự động hoàn toàn, có thể tạo ra các màu sống động và chân thực. Sử 
+dụng kỹ thuật cân bằng lại các lớp trong quá trình huấn luyện để tăng sự đa dạng về màu sắc trong kết quả. Hệ thống
+của chúng tôi được triển khai như một quá trình lan truyền xuôi (feed-forward) trong mạng nơ-ron tích chập (CNN) ở
+giai đoạn kiểm tra, và được huấn luyện trên hơn 1 triệu ảnh màu. Chúng tôi đánh giá thuật toán bằng cách sử dụng một
+=>" bài kiểm tra Turing tô màu"<=. Yêu cầu người tham gia chọn giữa bức ảnh được tạo ra và bức ảnh gốc. Phương pháp
+của chúng tôi đánh lừa con người trong 32% số lần thử, cao hơn so với các phương pháp trước. Hơn nữa, Chúng tôi chứng
+minh rằng bài toán tô màu có thể trở thành 1 tác vụ =>"tự giám sát" <= mạnh mẽ trong học đặc trưng (feature learning)
+hoạt động như một bộ mã hóa giữa các kênh ảnh.
+
+INTRODUCTION
+===================> Dán ảnh 1 <=====================
+- Hãy xem xét các bức ảnh đen trắng trong Hình 1
+- Thoạt nhìn, việc "tưởng tượng" ra màu sắc của chúng tôi có vẻ khăn, vì phần lớn thông tin đã bị mất (2 trong 3 kênh)
+- Tuy nhiên, nếu nhìn kỹ hơn, ta nhận ra trong nhiều TH, ngữ nghĩa của cảnh vật và kết cấu bề mặt vẫn cung cấp nhiều
+manh mối cho việc tô màu:
+	+ Như là: Có thường có màu xanh lá, Bầu trời thường xanh dương, Bọ rùa thì có màu đỏ
+- Nhứng hiểu biết này dựa trên kiến thức sẵn có về thế giới không phải lúc nào cũng đúng
+ 	+ Ví dụ như Cái áo không phải lúc nào cũng màu đỏ vàng tím như ta đoán
+- Bài báo này có mục tiêu là không phải là khôi phục chính xác màu gốc thực tế, mà là tạo ra một phiên bản màu hợp
+lý, có thể khiến con người tin nó là thật.
+- Trong không gian màu CIE Lab, hệ thống chúng tôi sử dụng kênh L ( độ sáng) làm đầu vào, và dự đoán 2 kênh màu a và
+b tương ứng để tái tạo màu
+- Chúng tôi sử dụng dữ liệu quy mô lớn. Việc dự đoán màu sắc có một đặc điểm thuận lợi là dữ liệu huấn luyền gần như
+là miễn phí: bất kỳ ảnh nào cũng có thể huấn luyện, đơn giản bằng cách lấy kênh L của ảnh làm đầu vào và các kênh a 
+và b làm tín hiệu giám sát. Các nc trước đây cho các kết quả có xu hướng trong bị nhạt nhòa màu.
+- [3] Đã được chỉ ra rằng dự đoán màu là một bài toán vốn mang tính đa mô thức - nhiều đối tượng có thể có nhiều cách
+tô màu hợp lý khác nhau. Ví dụ, 1 quả táo có thể đỏ vàng xanh, nhưng hiếm khi là màu blue hoặc cam. Để mô hình hóa
+lý tính đa mô thức của bài toán, chúng tôi dự đoán một phối các màu khả thi cho mỗi điểm ảnh. Cuối cùng, chúng tôi
+tạo ra ảnh màu bằng cách lấy giá trị trung bình lam nguội của phân phối. Kết quả cuối cùng là các ảnh được tô màu 
+sống động và chân thực hơn so với pp trước đó.
+- Chúng tôi đã thiết lập 1 bài kiểm tra Turing tô màu trong đó người tham gia đc đưa cho 2 ảnh gốc và ảnh tô màu bằng
+nhân tạo và đc xác định ảnh giả
+- Trong thiết lập này, chúng tôi có thể đánh lừa người tham gia trong các trường hợp là 32% trong khi nếu có 2 ảnh 
+thật thì là 50%. Cao hơn so với các phương pháp trước đây[2]
+- Đóng góp của chúng tôi nằm ở 2 lĩnh vực
+	+ Chúng tôi cải thiện bài toán đồ họa tô màu ảnh tự động bằng cách:
+		+ Thiết kế 1 hàm mục tiêu phù hợp có thể xử lý sự không chắc chắn đa mô thức và nắm bắt được
+		  sự đa dạng màu sắc rộng hơn
+		+ giới thiệu 1 khung kiểm thử mới cho các thuật toán tô màu, có thể áp dụng cho các bài toán tổng hợp
+		  khác
+		+ thiết lập một mốc hiệu suất mới bằng cách huấn luyện trên một triệu ảnh màu.
+	+ Chúng tôi giới thiệu bài toán tô màu như một phương pháp học biểu diễn tự giám sát đơn giản và cạnh tranh,
+		+ đạt kết quả hàng đầu trên nhiều bộ đo chuẩn.
+
+- Các nghiên cứu trước về tô màu ảnh 
+	+ các thuật toán tô màu chủ yếu khác nhau ở cách chúng xử lý và khai thác dữ liệu để xây dụng mô hình tương 
+	quan giữa ảnh xám và ảnh màu
+- Phương pháp của chúng tôi học cách phân loại màu, nhưng thực hiện điều đó với một mô hình lớn hơn, được huấn luyện
+trên lượng dữ liệu lớn hơn và có nhiều cải tiến hàm mất mát cũng như cách chuyển sang đầu ra liên tục cuối cùng.
+
+
+APPROACH PHƯƠNG PHÁP TIẾP CẬN
+- Chúng tôi huấn luyện mạng nơ ron tích chập để ánh xạ từ ảnh đầu vào dạng thang xám sang một phân phối các giá trị 
+màu đã được lượng tử hóa, sử dụng kiến trúc được minh họa trong Hình 2. <============
+	OBJECTIVE FUNCTION HÀM MỤC TIÊU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
