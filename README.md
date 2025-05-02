@@ -15,4 +15,6 @@ Mục tiêu của nghiên cứu là xác định những xu hướng chung về 
 - [x] https://github.com/richzhang/colorization
 - [x] Image Colorization Using the Global Scene-Context Style and Pixel-Wise Semantic Segmentation (Author: Tram-Tran Nguyen-Quynh, S.H. Kim, Nhu-Tai Do )
 - [x] Colorful Image Colorization (Oct 2016, ECCV, Author Richard Zhang, Phillip Isola(B), and Alexei A. Efros) (Papper)
-- [ ]Learning Representations for Automatic Colorization (Author Gustav Larsson1, Michael Maire2, and Gregory Shakhnarovich2)
+- [x]Learning Representations for Automatic Colorization (Author Gustav Larsson1, Michael Maire2, and Gregory Shakhnarovich2)
+- [x] Dahl, R.: Automatic colorization (2016).
+- [x] Learning Representations for Automatic Colorization (Gustav Larsson, Michael Maire, Gregory Shakhnarovich)
