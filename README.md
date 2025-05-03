@@ -17,4 +17,3 @@ Mục tiêu của nghiên cứu là xác định những xu hướng chung về 
 - [x] Colorful Image Colorization (Oct 2016, ECCV, Author Richard Zhang, Phillip Isola(B), and Alexei A. Efros) (Papper)
 - [x]Learning Representations for Automatic Colorization (Author Gustav Larsson1, Michael Maire2, and Gregory Shakhnarovich2)
 - [x] Dahl, R.: Automatic colorization (2016).
-- [x] Learning Representations for Automatic Colorization (Gustav Larsson, Michael Maire, Gregory Shakhnarovich)
