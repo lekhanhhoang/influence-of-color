@@ -5,7 +5,7 @@ Dự án này được lấy cảm hứng từ bài báo: [Colorful Image Colori
 
 # Regression với kênh màu CIE Lab
 - Cách tiếp cận cơ bản đầu tiên để giải quyết bài toán tô màu ảnh là xem nó như một bài toán hồi quy
-![alt text](image/Loss.png)
+![alt text](image/Loss.jpg)
 
 
 
