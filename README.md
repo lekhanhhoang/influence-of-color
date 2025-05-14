@@ -1,10 +1,15 @@
 # Colorful-Image-Colorization
-Giới thiệu tổng quan về dự án:
-Màu sắc đóng vai trò quan trọng trong nhiều lĩnh vực của đời sống, từ thiết kế, nghệ thuật đến tâm lý học và marketing. Nghiên cứu này nhằm phân tích ảnh hưởng của màu sắc đến tâm lý và hành vi con người, qua đó đánh giá mức độ tác động của từng gam màu lên nhận thức, cảm xúc và quyết định của cá nhân.
+Dự án này triển khai một mạng nơ-ron tích chập sâu (deep convolutional neural network) để tự động tô màu ảnh – tức là giải quyết bài toán chuyển ảnh đầu vào dạng đen trắng (grayscale) thành ảnh màu.
 
-Dự án sẽ tổng hợp các nghiên cứu trước đây về mối liên hệ giữa màu sắc và tâm lý, đồng thời tiến hành khảo sát thực nghiệm để thu thập dữ liệu về phản ứng của con người đối với các gam màu khác nhau trong những bối cảnh cụ thể. Kết quả thu được có thể ứng dụng trong nhiều lĩnh vực như thiết kế giao diện người dùng (UI/UX), quảng cáo, giáo dục và chăm sóc sức khỏe.
+Dự án này được lấy cảm hứng từ bài báo: [Colorful Image Colorization](https://arxiv.org/abs/1603.08511)
 
-Mục tiêu của nghiên cứu là xác định những xu hướng chung về ảnh hưởng của màu sắc đến cảm xúc và hành vi, đồng thời đề xuất các ứng dụng thực tiễn nhằm tối ưu hóa trải nghiệm người dùng trong các lĩnh vực liên quan.
+# Regression với kênh màu CIE Lab
+- Cách tiếp cận cơ bản đầu tiên để giải quyết bài toán tô màu ảnh là xem nó như một bài toán hồi quy
+![alt text](image/Loss.png)
+
+
+
+
 
 # Tài liệu tham khảo nhóm đọc
 - [x] Color diagnosticity in object recognition - Published: August 1999 (James W. Tanaka & Lynn M. Presnell )
