@@ -1,4 +1,5 @@
-# Video Thuyết trình: https://drive.google.com/drive/folders/17ps9bAI0Wob2qB2JPBtzWKiALZgYc2Oo?usp=sharing
+# Video Thuyết trình: 
+https://drive.google.com/drive/folders/17ps9bAI0Wob2qB2JPBtzWKiALZgYc2Oo?usp=sharing
 # Colorful-Image-Colorization
 Dự án này triển khai một mạng nơ-ron tích chập sâu (deep convolutional neural network) để tự động tô màu ảnh – tức là giải quyết bài toán chuyển ảnh đầu vào dạng đen trắng (grayscale) thành ảnh màu.
 
