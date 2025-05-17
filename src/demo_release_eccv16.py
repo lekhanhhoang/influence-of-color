@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from colorizers import *
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-i','--img_path', type=str, default='src/imgs/scale.jpg')
+parser.add_argument('-i','--img_path', type=str, default='src/imgs/Mark_Twain1.jpg')
 parser.add_argument('--use_gpu', action='store_true', help='whether to use GPU')
 parser.add_argument('-o','--save_prefix', type=str, default='saved', help='will save into this file with eccv16.png suffix')
 opt = parser.parse_args()
